@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>hyungwon_homework5_pkg</name>
+  <version>0.0.0</version>
+  <description>ROS 2 rclcpp basic package for the ROS 2 seminar</description>
+  <maintainer email="passionvirus@gmail.com">Pyo</maintainer>
+  <license>Apache License 2.0</license>
+  <author>Mikael Arguedas</author>
+  <author>Morgan Quigley</author>
+  <author email="jacob@openrobotics.org">Jacob Perron</author>
+  <author email="passionvirus@gmail.com">Pyo</author>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <depend>rclcpp</depend>
+  <depend>std_msgs</depend>
+  <depend>rosidl_default_generators</depend>
+
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+
+  <exec_depend>rosidl_default_runtime</exec_depend>
+
+  <member_of_group>rosidl_interface_packages</member_of_group>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
